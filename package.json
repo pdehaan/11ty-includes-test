@@ -1,0 +1,37 @@
+{
+  "name": "11ty-includes-test",
+  "description": "Testing permalinks and includes in Eleventy.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-includes-test/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "rimraf": "^3.0.1"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "homepage": "https://github.com/pdehaan/11ty-includes-test#readme",
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "include",
+    "permalink"
+  ],
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-includes-test.git"
+  },
+  "scripts": {
+    "11ty:build": "eleventy build",
+    "11ty:serve": "npx run 11ty:build -- --serve",
+    "clean": "rimraf _site",
+    "format:dist": "npx prettier _site/**/*.html --write",
+    "format:src": "npx prettier docs/**/*.{js,html,md} --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
