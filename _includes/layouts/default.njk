@@ -1,11 +1,21 @@
 <!doctype html>
 <html>
 <head>
-<title>{{ title }}</title>
+  <title>{{ title }}</title>
+  <style>
+    .lead {
+      font-size: 1.4rem;
+    }
+    pre {
+      background-color: salmon;
+      padding: 10px;
+      margin: 10px;
+    }
+  </style>
 </head>
 <body>
 
-{{ content | safe }}
+  {{ content | safe }}
 
 </body>
 </html>

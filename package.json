@@ -28,7 +28,7 @@
   },
   "scripts": {
     "11ty:build": "eleventy build",
-    "11ty:serve": "npx run 11ty:build -- --serve",
+    "11ty:serve": "npm run 11ty:build -- --serve",
     "clean": "rimraf _site",
     "format:dist": "npx prettier _site/**/*.html --write",
     "format:src": "npx prettier docs/**/*.{js,html,md} --write",

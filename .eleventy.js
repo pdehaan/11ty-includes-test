@@ -4,6 +4,6 @@ module.exports = (eleventyConfig) => {
     dataTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
-    templateFormats: ["html", "md", "njk"]
+    templateFormats: ["md", "njk"]
   };
 };

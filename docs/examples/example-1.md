@@ -7,9 +7,7 @@ tags:
 permalink: "examples/example-1.html"
 ---
 
-This is a jazzy intro for Example 1.
-
-<!--more-->
+<p class="lead">This is a jazzy intro for Example 1.</p>
 
 ```html
 {% include "./example-1.html" -%}
